@@ -1,6 +1,6 @@
 //program that calculates the net salary
 
-function calculatesNetSalary(basicSalary, benefits) {
+function calculatesNetSalary() {
      // Prompt the user to input the basic salary and benefits
      const basicSalary = parseFloat(prompt("Enter Basic Salary:"));
      const benefits = parseFloat(prompt("Enter Benefits:"));
@@ -29,4 +29,4 @@ function calculatesNetSalary(basicSalary, benefits) {
        return`Net salary is: ${netSalary}`;
 
 }
-const salary = calculateSNetSalary(basicSalary, benefits);
+const salary = calculatesNetSalary();
